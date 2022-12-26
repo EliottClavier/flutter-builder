@@ -32,6 +32,6 @@ jobs:
           push: true
           description: An image to build flutter apps APKs (image's tag is indexed on flutter's version supported)
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/cashmanager-api:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/cashmanager-api:${{ github.ref_name }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/flutter-builder:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/flutter-builder:${{ github.ref_name }}
         
