@@ -1,6 +1,8 @@
 name: Build and publish flutter-builder
 
-on: [release]
+on:
+  release:
+    types: [published]
 
 jobs:
   build_and_push_flutter_builder:
